@@ -1,0 +1,22 @@
+{
+  "name": "chile-geological-journal",
+  "version": "1.0.0",
+  "description": "Automated field journal for geological observations in Chile and Rapa Nui",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "node index.js"
+  },
+  "keywords": [
+    "geology",
+    "automation",
+    "docx",
+    "field-journal"
+  ],
+  "author": "Amateur Geologist",
+  "license": "CC-BY-NC-ND-4.0",
+  "dependencies": {
+    "docx": "^8.2.3",
+    "open": "^8.4.2"
+  }
+}
