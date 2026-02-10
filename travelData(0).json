@@ -1,0 +1,286 @@
+{
+  "tripTitle": "FIELD JOURNAL: CHILE & RAPA NUI",
+  "author": "Amateur Geologist",
+  "coverImage": "Cover.jpg",
+  "days": [
+    {
+      "day": "Day 1",
+      "title": "Arrival in Santiago & Maipo Valley Reconnaissance",
+      "description": "Touching down in the forearc basin of the Central Andes. Traveled southeast into the Maipo Valley to observe the transition from the sedimentary valley floor to the igneous Andean foothills.",
+      "coordinates": "-33.6456, -70.3452",
+      "images": [
+        {
+          "url": "san_cristobal.jpg",
+          "caption": "Figure 1.1: The Santiago basin skyline with the snow-capped Andes rising in the background."
+        },
+        {
+          "url": "maipo_strata.jpg",
+          "caption": "Figure 1.2: Close-up of fluvial conglomerate deposits along the Maipo River banks."
+        }
+      ],
+      "geoNote": {
+        "title": "Andean Orogeny",
+        "text": "Evidence of rapid tectonic uplift is visible in the deeply incised river valleys. The clasts in the conglomerate are predominantly volcanic, indicating high-energy transport from the volcanic arc."
+      }
+    },
+    {
+      "day": "Day 2",
+      "title": "San Cristobal Igneous Complex",
+      "description": "Hiked the hill to observe the intrusive igneous formations overlooking the basin.",
+      "activities": ["Summit hike", "Funicular"],
+      "images": [
+        {
+          "url": "san_cristobal.jpg",
+          "caption": "Figure 1.1: The Santiago basin skyline with the snow-capped Andes rising in the background."
+        },
+        {
+          "url": "maipo_strata.jpg",
+          "caption": "Figure 1.2: Close-up of fluvial conglomerate deposits along the Maipo River banks."
+        }
+      ],
+      "coordinates": "-33.4250, -70.6330",
+      "geoNote": {
+        "title": "Intrusive Rock",
+        "text": "The hill is largely composed of quartz monzonite, an igneous rock that cooled slowly underground."
+      }
+    },
+    {
+      "day": "Day 3",
+      "title": "Maipo Valley Strata",
+      "description": "Witnessed intense folding in the sedimentary layers of the Caj�n del Maipo.",
+      "activities": ["Wine tasting", "Canyon drive"],
+      "images": [
+        {
+          "url": "san_cristobal.jpg",
+          "caption": "Figure 1.1: The Santiago basin skyline with the snow-capped Andes rising in the background."
+        },
+        {
+          "url": "maipo_strata.jpg",
+          "caption": "Figure 1.2: Close-up of fluvial conglomerate deposits along the Maipo River banks."
+        }
+      ],
+      "coordinates": "-33.6450, -70.7750",
+      "geoNote": {
+        "title": "Folding",
+        "text": "The 'V' shaped folds in the canyon walls demonstrate the immense lateral pressure of plate convergence."
+      }
+    },
+    {
+      "day": "Day 4",
+      "title": "Valparaiso Coastal Uplift",
+      "description": "Explored the UNESCO hills. The steep cliffs show evidence of rapid tectonic coastal rise.",
+      "activities": ["Street Art Tour", "Ascensor Artilleria"],
+      "images": [
+        {
+          "url": "san_cristobal.jpg",
+          "caption": "Figure 1.1: The Santiago basin skyline with the snow-capped Andes rising in the background."
+        },
+        {
+          "url": "maipo_strata.jpg",
+          "caption": "Figure 1.2: Close-up of fluvial conglomerate deposits along the Maipo River banks."
+        }
+      ], 
+     "coordinates": "-33.0472, -71.6127",
+      "geoNote": {
+        "title": "Tectonic Uplift",
+        "text": "Major seismic events in this region can uplift the shoreline by over a meter in minutes."
+      }
+    },
+    {
+      "day": "Day 5",
+      "title": "El Yeso Reservoir",
+      "description": "High altitude reservoir surrounded by turquoise water and gypsum-rich soil.",
+      "activities": ["Hiking", "Photography"],
+      "images": [
+        {
+          "url": "san_cristobal.jpg",
+          "caption": "Figure 1.1: The Santiago basin skyline with the snow-capped Andes rising in the background."
+        },
+        {
+          "url": "maipo_strata.jpg",
+          "caption": "Figure 1.2: Close-up of fluvial conglomerate deposits along the Maipo River banks."
+        }
+      ],
+      "coordinates": "-33.6650, -70.1130",
+      "geoNote": {
+        "title": "Gypsum Deposits",
+        "text": "The 'Yeso' (Gypsum) found here is an evaporite mineral formed in ancient saline basins."
+      }
+    },
+    {
+      "day": "Day 6",
+      "title": "Transit to Rapa Nui",
+      "description": "Flight across the Pacific to the most isolated volcanic island in the world.",
+      "activities": ["Flight", "Tahai Sunset"],
+      "image": "rapa_nui_arrival.jpg",
+      "coordinates": "-27.1127, -109.3497",
+      "geoNote": {
+        "title": "Hotspot Volcanism",
+        "text": "Rapa Nui formed from three shield volcanoes emerging from the seafloor over a mantle hotspot."
+      }
+    },
+    {
+      "day": "Day 7",
+      "title": "Rano Raraku Quarry",
+      "description": "The birthplace of the Moai. Carved directly into the volcanic crater walls.",
+      "activities": ["Quarry walk", "Moai counting"],
+      "image": "rano_raraku.jpg",
+      "coordinates": "-27.1244, -109.2886",
+      "geoNote": {
+        "title": "Volcanic Tuff",
+        "text": "Tuff is lithified volcanic ash. It is soft enough to carve with basalt tools but hardens over time."
+      }
+    },
+    {
+      "day": "Day 8",
+      "title": "Orongo & Rano Kau",
+      "description": "The dramatic caldera of Rano Kau shows beautiful freshwater lake stratigraphy.",
+      "activities": ["Birdman Village", "Caldera Rim walk"],
+      "image": [
+        "TectonicPlates.jpg",
+        "TectonicPlates.jpg"
+      ],
+      "coordinates": "-27.1847, -109.4386",
+      "geoNote": {
+        "title": "Caldera Formation",
+        "text": "A caldera forms when a volcano collapses into itself after emptying its magma chamber."
+      }
+    },
+    {
+      "day": "Day 9",
+      "title": "Ahu Akivi Caves",
+      "description": "Explored subterranean lava tubes created by ancient flowing magma.",
+      "activities": ["Cave exploration", "Inland Moai"],
+      "image": [
+        "VolcanoXsection.jpg",
+        "VolcanicEruption.jpg",
+        "TectonicPlates.jpg",
+        "GeologicalTimeline.jpg"
+      ],
+      "coordinates": "-27.1147, -109.3953",
+      "geoNote": {
+        "title": "Lava Tubes",
+        "text": "Caves formed when the outer crust of a lava flow hardened while the molten center kept moving."
+      }
+    },
+    {
+      "day": "Day 10",
+      "title": "Anakena Beach",
+      "description": "White coral sand contrasting with dark basaltic rocks.",
+      "activities": ["Swimming", "Ahu Nau Nau"],
+      "image": "TectonicPlates.jpg",
+      "coordinates": "-27.0733, -109.3236",
+      "geoNote": {
+        "title": "Coral Sand",
+        "text": "Unlike the volcanic rocks of the island, this sand is biogenic, formed from crushed coral and shells."
+      }
+    },
+    {
+      "day": "Day 11",
+      "title": "Mainland Return",
+      "description": "Return to Santiago. Evening reflection on the island's volcanic cycle.",
+      "activities": ["Flight back", "Lastarria Dinner"],
+      "images": [
+        {
+          "url": "rapa_nui_arrival.jpg",
+          "caption": "Figure 12.1: Overview of the Tatio basin showing steam discharge at 06:00."
+        },
+        {
+          "url": "TectonicPlates.jpg",
+          "caption": "Figure 12.2: Close-up of siliceous sinter terraces showing active precipitation."
+        }
+      ],
+      "coordinates": "-33.4372, -70.6436"
+    },
+    {
+      "day": "Day 12",
+      "title": "Patagonia: Punta Arenas",
+      "description": "Flying south to the edge of the continent. Entering the realm of glaciers.",
+      "activities": ["Museum visit", "Coastal walk"],
+      "images": [
+        "VolcanoXsection.jpg",
+        "VolcanicEruption.jpg",
+        "TectonicPlates.jpg"
+      ],
+      "coordinates": "-53.1638, -70.9171",
+      "geoNote": {
+        "title": "Glacial Moraines",
+        "text": "The landscape here is shaped by glacial till�unsorted sediment dropped by retreating ice sheets."
+      }
+    },
+    {
+      "day": "Day 13",
+      "title": "Torres del Paine",
+      "description": "First view of the granite massifs. A masterpiece of intrusive geology.",
+      "activities": ["Park entry", "Lake Nordenskj�ld"],
+      "image": "VolcanoXsection.jpg",
+      "coordinates": "-51.0000, -73.0000",
+      "geoNote": {
+        "title": "Laccoliths",
+        "text": "The 'Torres' are granite laccoliths that intruded into sedimentary rock 12 million years ago."
+      }
+    },
+    {
+      "day": "Day 14",
+      "title": "Grey Glacier Hike",
+      "description": "Walking beside the massive Southern Patagonian Ice Field.",
+      "activities": ["Trekking", "Boat tour"],
+      "image": "VolcanicEruption.jpg",
+      "coordinates": "-51.0450, -73.1550",
+      "geoNote": {
+        "title": "Glacial Erosion",
+        "text": "Glaciers act like giant sandpaper, grinding down solid rock into fine 'rock flour'."
+      }
+    },
+    {
+      "day": "Day 15",
+      "title": "The French Valley",
+      "description": "Deep in the heart of the granite horns. Witnessed small snow avalanches.",
+      "activities": ["High-altitude trek"],
+      "image": "GeologicalTimeline.jpg",
+      "coordinates": "-51.0150, -73.0550",
+      "geoNote": {
+        "title": "Exfoliation",
+        "text": "Granite 'peels' in layers due to pressure release as overlying rock is eroded away."
+      }
+    },
+    {
+      "day": "Day 16",
+      "title": "Departure Preparations",
+      "description": "Final morning in the park before the journey back to Punta Arenas.",
+      "activities": ["Packing", "Wildlife spotting"],
+      "image": "TectonicPlates.jpg",
+      "coordinates": "-51.1500, -72.8500"
+    },
+    {
+      "day": "Day 17",
+      "title": "Atacama Extension: Moon Valley",
+      "description": "Transition to the high desert. Salt crusts crunching underfoot.",
+      "activities": ["Sunset dune walk", "Salt cave exploration"],
+      "image": "cover.jpg",
+      "coordinates": "-22.9110, -68.3180",
+      "geoNote": {
+        "title": "Evaporites",
+        "text": "Halite and Gypsum crystals form here because evaporation rates far exceed precipitation."
+      }
+    }
+  ],
+  "glossary": [
+    {
+      "term": "Subduction",
+      "definition": "One tectonic plate sliding beneath another."
+    },
+    {
+      "term": "Tuff",
+      "definition": "Rock formed from compacted volcanic ash."
+    },
+    {
+      "term": "Laccolith",
+      "definition": "An igneous intrusion that has forced apart two layers of sedimentary rock."
+    },
+    {
+      "term": "Caldera",
+      "definition": "A large volcanic crater formed by a major eruption leading to the collapse of the mouth of the volcano."
+    }
+  ]
+}

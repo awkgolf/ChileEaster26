@@ -5,14 +5,23 @@
   "days": [
     {
       "day": "Day 1",
-      "title": "Andean Arrival",
-      "description": "Landed in Santiago. Observed the massive tectonic uplift of the Andes from the city center.",
-      "activities": ["Check-in", "Sky Costanera View"],
-      "image": "santiago_skyline.jpg",
-      "coordinates": "-33.4489, -70.6693",
+      "title": "Arrival in Santiago & Maipo Valley Reconnaissance",
+      "coordinates": "-33.6456, -70.3452",
+      "description": "Touching down in the forearc basin of the Central Andes. Traveled southeast into the Maipo Valley to observe the transition from the sedimentary valley floor to the igneous Andean foothills.",
+      "image": "photo_old_format.jpg",
+      "images": [
+        {
+          "url": "san_cristobal.jpg",
+          "caption": "Figure 1.1: The Santiago basin skyline with the snow-capped Andes rising in the background."
+        },
+        {
+          "url": "maipo_strata.jpg",
+          "caption": "Figure 1.2: Close-up of fluvial conglomerate deposits along the Maipo River banks."
+        }
+      ],
       "geoNote": {
-        "title": "Orogeny",
-        "text": "The Andes are a primary result of the Nazca plate subducting beneath the South American plate."
+        "title": "Andean Orogeny",
+        "text": "Evidence of rapid tectonic uplift is visible in the deeply incised river valleys. The clasts in the conglomerate are predominantly volcanic, indicating high-energy transport from the volcanic arc."
       }
     },
     {
@@ -20,7 +29,16 @@
       "title": "San Cristobal Igneous Complex",
       "description": "Hiked the hill to observe the intrusive igneous formations overlooking the basin.",
       "activities": ["Summit hike", "Funicular"],
-      "image": "san_cristobal.jpg",
+      "images": [
+        {
+          "url": "san_cristobal.jpg",
+          "caption": "Figure 1.1: The Santiago basin skyline with the snow-capped Andes rising in the background."
+        },
+        {
+          "url": "maipo_strata.jpg",
+          "caption": "Figure 1.2: Close-up of fluvial conglomerate deposits along the Maipo River banks."
+        }
+      ],
       "coordinates": "-33.4250, -70.6330",
       "geoNote": {
         "title": "Intrusive Rock",
@@ -32,7 +50,16 @@
       "title": "Maipo Valley Strata",
       "description": "Witnessed intense folding in the sedimentary layers of the Caj�n del Maipo.",
       "activities": ["Wine tasting", "Canyon drive"],
-      "image": "maipo_strata.jpg",
+      "images": [
+        {
+          "url": "san_cristobal.jpg",
+          "caption": "Figure 1.1: The Santiago basin skyline with the snow-capped Andes rising in the background."
+        },
+        {
+          "url": "maipo_strata.jpg",
+          "caption": "Figure 1.2: Close-up of fluvial conglomerate deposits along the Maipo River banks."
+        }
+      ],
       "coordinates": "-33.6450, -70.7750",
       "geoNote": {
         "title": "Folding",
@@ -44,8 +71,17 @@
       "title": "Valparaiso Coastal Uplift",
       "description": "Explored the UNESCO hills. The steep cliffs show evidence of rapid tectonic coastal rise.",
       "activities": ["Street Art Tour", "Ascensor Artilleria"],
-      "image": "valpo_coast.jpg",
-      "coordinates": "-33.0472, -71.6127",
+      "images": [
+        {
+          "url": "san_cristobal.jpg",
+          "caption": "Figure 1.1: The Santiago basin skyline with the snow-capped Andes rising in the background."
+        },
+        {
+          "url": "maipo_strata.jpg",
+          "caption": "Figure 1.2: Close-up of fluvial conglomerate deposits along the Maipo River banks."
+        }
+      ], 
+     "coordinates": "-33.0472, -71.6127",
       "geoNote": {
         "title": "Tectonic Uplift",
         "text": "Major seismic events in this region can uplift the shoreline by over a meter in minutes."
@@ -56,7 +92,16 @@
       "title": "El Yeso Reservoir",
       "description": "High altitude reservoir surrounded by turquoise water and gypsum-rich soil.",
       "activities": ["Hiking", "Photography"],
-      "image": "el_yeso.jpg",
+      "images": [
+        {
+          "url": "san_cristobal.jpg",
+          "caption": "Figure 1.1: The Santiago basin skyline with the snow-capped Andes rising in the background."
+        },
+        {
+          "url": "maipo_strata.jpg",
+          "caption": "Figure 1.2: Close-up of fluvial conglomerate deposits along the Maipo River banks."
+        }
+      ],
       "coordinates": "-33.6650, -70.1130",
       "geoNote": {
         "title": "Gypsum Deposits",
@@ -92,7 +137,10 @@
       "title": "Orongo & Rano Kau",
       "description": "The dramatic caldera of Rano Kau shows beautiful freshwater lake stratigraphy.",
       "activities": ["Birdman Village", "Caldera Rim walk"],
-      "image": "TectonicPlates.jpg",
+      "images": [
+        "TectonicPlates.jpg",
+        "TectonicPlates.jpg"
+      ],
       "coordinates": "-27.1847, -109.4386",
       "geoNote": {
         "title": "Caldera Formation",
@@ -104,7 +152,12 @@
       "title": "Ahu Akivi Caves",
       "description": "Explored subterranean lava tubes created by ancient flowing magma.",
       "activities": ["Cave exploration", "Inland Moai"],
-      "image": "TectonicPlates.jpg",
+      "images": [
+        "VolcanoXsection.jpg",
+        "VolcanicEruption.jpg",
+        "TectonicPlates.jpg",
+        "GeologicalTimeline.jpg"
+      ],
       "coordinates": "-27.1147, -109.3953",
       "geoNote": {
         "title": "Lava Tubes",
@@ -128,7 +181,16 @@
       "title": "Mainland Return",
       "description": "Return to Santiago. Evening reflection on the island's volcanic cycle.",
       "activities": ["Flight back", "Lastarria Dinner"],
-      "image": "TectonicPlates.jpg",
+      "images": [
+        {
+          "url": "rapa_nui_arrival.jpg",
+          "caption": "Figure 12.1: Overview of the Tatio basin showing steam discharge at 06:00."
+        },
+        {
+          "url": "TectonicPlates.jpg",
+          "caption": "Figure 12.2: Close-up of siliceous sinter terraces showing active precipitation."
+        }
+      ],
       "coordinates": "-33.4372, -70.6436"
     },
     {
@@ -136,7 +198,11 @@
       "title": "Patagonia: Punta Arenas",
       "description": "Flying south to the edge of the continent. Entering the realm of glaciers.",
       "activities": ["Museum visit", "Coastal walk"],
-      "image": "TectonicPlates.jpg",
+      "images": [
+        "VolcanoXsection.jpg",
+        "VolcanicEruption.jpg",
+        "TectonicPlates.jpg"
+      ],
       "coordinates": "-53.1638, -70.9171",
       "geoNote": {
         "title": "Glacial Moraines",
@@ -201,9 +267,21 @@
     }
   ],
   "glossary": [
-    { "term": "Subduction", "definition": "One tectonic plate sliding beneath another." },
-    { "term": "Tuff", "definition": "Rock formed from compacted volcanic ash." },
-    { "term": "Laccolith", "definition": "An igneous intrusion that has forced apart two layers of sedimentary rock." },
-    { "term": "Caldera", "definition": "A large volcanic crater formed by a major eruption leading to the collapse of the mouth of the volcano." }
+    {
+      "term": "Subduction",
+      "definition": "One tectonic plate sliding beneath another."
+    },
+    {
+      "term": "Tuff",
+      "definition": "Rock formed from compacted volcanic ash."
+    },
+    {
+      "term": "Laccolith",
+      "definition": "An igneous intrusion that has forced apart two layers of sedimentary rock."
+    },
+    {
+      "term": "Caldera",
+      "definition": "A large volcanic crater formed by a major eruption leading to the collapse of the mouth of the volcano."
+    }
   ]
 }

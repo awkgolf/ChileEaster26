@@ -1,0 +1,9 @@
+/Chile-Field-Journal/
+├── .vscode/                 (Your launch settings)
+├── node_modules/           (The engine parts - created by npm install)
+├── photos/                  (All your images, including cover.jpg)
+├── index.js                 (The logic you just updated)
+├── travelData.json          (Your actual journal data)
+├── package.json             (Project configuration)
+├── setup-tablet.sh          (Your tablet installer)
+└── build_journal.bat        (One-click build for Windows)

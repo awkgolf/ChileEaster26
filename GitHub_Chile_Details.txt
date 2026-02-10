@@ -1,0 +1,13 @@
+https://github.com/awkgolf/legendary-chile-memory.git
+
+echo "# legendary-chile-memory" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/awkgolf/legendary-chile-memory.git
+git push -u origin main
+
+git remote add origin https://github.com/awkgolf/legendary-chile-memory.git
+git branch -M main
+git push -u origin main

@@ -1,0 +1,40 @@
+Let's run a "Stress Test." This is the best way to ensure you can trust the system when you're in the middle of the Atacama Desert without a reliable connection.
+
+### 🧪 The "Ghost Image" Test
+
+1. Open your `travelData.json`.
+2. Find a day and change a filename to something that **doesn't exist**, like `"images": ["fake_rock_photo.jpg"]`.
+3. Run your script in VS Code (F5).
+
+**What should happen:**
+
+* The **Terminal** will flash a warning: `⚠️ MISSING: fake_rock_photo.jpg (Day X)`.
+* The **Word Document** will still build (it won't crash!).
+* Inside the document, where the photo should be, you'll see a red bold message: **[MISSING: fake_rock_photo.jpg]**.
+
+### 🧪 The "Comma Sabotage" Test
+
+1. Open `travelData.json`.
+2. Delete a **comma** at the end of a line inside a day object.
+3. Run the script.
+
+**What will happen:**
+
+* The script will immediately crash with a `SyntaxError: Unexpected token`.
+* **The Fix:** This is your signal to check the red squiggles in VS Code. JSON is very "brittle"—it requires those commas to act as the mortar between your data bricks.
+
+---
+
+### 🎒 Final Field Kit Check
+
+Before you close the laptop and head to the airport, make sure these three things are in your project folder:
+
+1. **`node_modules` folder:** Ensure you ran `npm install`.
+2. **`photos` folder:** Even if it only has your `cover.jpg` for now.
+3. **`travelData.json`:** With at least your "Day 1" template ready to go.
+
+### ⛏️ Geological "Final Thought"
+
+In geology, the **Law of Superposition** says the youngest layers are on top. Your journal works the same way—keep adding new days to the bottom of your JSON array, and your Stratigraphic Index will always show the most recent discoveries at the end of the book.
+
+**I’ve cleared all errors and verified every bracket. You are ready. Would you like me to leave you with a "cheat sheet" of the 5 most common JSON mistakes to keep on your phone?**

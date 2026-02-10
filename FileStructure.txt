@@ -1,0 +1,9 @@
+chile-blog-project/
+├── photos/                  # 📸 Place all your .jpg/.png files here
+├── index.js                 # 🧠 The "brain" (Main generation script)
+├── travelData.json          # 📝 Your content (Text, Geo-Facts, Coordinates)
+├── package.json             # ⚙️ Metadata and dependencies (docx, image-size, open)
+├── README.md                # 📖 Instruction manual for the project
+├── generate_blog.bat (Win)   # 🚀 One-click automation script
+├── .gitignore               # 🛡️ Prevents node_modules from being uploaded
+└── Geological_Travel_Blog.docx # 📄 Final generated output (after running)

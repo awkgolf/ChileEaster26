@@ -1,0 +1,24 @@
+🎒 THE PRE-EXPEDITION CHECKLIST
+
+1. Digital Integrity (The "Software Layer")
+[ ] GitHub Push: Run git push origin main one last time to ensure your latest code and travelData.json are in the cloud.
+
+[ ] Tablet Pull: Open Termux on your Samsung Tablet and run git pull to verify the code arrives safely.
+
+[ ] Dependency Check: Run npm install on the tablet. Ensure no errors appear.
+
+[ ] The "Dry Run": Execute node index.js on the tablet using your Day 1 template. Ensure it opens in your Word viewer.
+
+2. Asset Management (The "Physical Layer")
+[ ] Cover Image: Confirm cover.jpg is inside the /photos folder on the tablet.
+
+[ ] Battery/Power: Ensure your tablet is charged and you have a ruggedized USB-C cable for data transfer from your camera.
+
+[ ] Offline Maps: Download the Chile, Atacama, and Rapa Nui regions in Google Maps for offline GPS coordinate cross-referencing.
+
+3. Field Essentials (The "Analog Layer")
+[ ] Rock Hammer: Checked for cracks in the handle.
+
+[ ] Hand Lens: Cleaned and tethered to your vest.
+
+[ ] Physical Backup: One waterproof "Rite in the Rain" notebook (just in case the tablet meets a salt flat puddle).
