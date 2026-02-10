@@ -7,7 +7,7 @@
       "day": "Day 1",
       "title": "Arrival in Santiago & Maipo Valley Reconnaissance",
       "coordinates": "-33.6456, -70.3452",
-      "description": "Touching down in the forearc basin of the Central Andes. Happy to have arrived safely in South America before heading forth.Traveled southeast into the Maipo Valley to observe the transition from the sedimentary valley floor to the igneous Andean foothills.",
+      "description": "Touching down in the forearc basin of the Central Andes. Happy to have arrived safely in South America before heading forth.Travelled southeast into the Maipo Valley to observe the transition from the sedimentary valley floor to the igneous Andean foothills.",
       "image": "photo_old_format.jpg",
       "images": [
         {
@@ -21,13 +21,13 @@
       ],
       "geoNote": {
         "title": "Andean Orogeny",
-        "text": "Evidence of rapid tectonic uplift is visible in the deeply incised river valleys. The clasts in the conglomerate are predominantly volcanic, indicating high-energy transport from the volcanic arc."
+        "text": "Plenty of great evidence of rapid tectonic uplift is visible in the deeply incised river valleys. The clasts in the conglomerate are predominantly volcanic, indicating high-energy transport from the volcanic arc."
       }
     },
     {
       "day": "Day 2",
       "title": "San Cristobal Igneous Complex",
-      "description": "Hiked the hill to observe the intrusive igneous formations overlooking the basin.",
+      "description": "Hiked up the hill to observe the intrusive igneous formations overlooking the basin.",
       "activities": ["Summit hike", "Funicular"],
       "images": [
         {
@@ -42,7 +42,7 @@
       "coordinates": "-33.4250, -70.6330",
       "geoNote": {
         "title": "Intrusive Rock",
-        "text": "The hill is largely composed of quartz monzonite, an igneous rock that cooled slowly underground."
+        "text": "The large hill is largely composed of quartz monzonite, an igneous rock that cooled slowly underground."
       }
     },
     {
