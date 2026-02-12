@@ -1,37 +1,13 @@
 {
   "tripTitle": "FIELD JOURNAL: CHILE & RAPA NUI",
   "author": "Amateur Geologist",
-  "coverImage": "Cover.jpg",
+  "coverImage": "cover.jpg",
   "days": [
     {
       "day": "Day 1",
       "title": "Arrival in Santiago & Maipo Valley Reconnaissance",
+      "description": "Touching down in the forearc basin of the Central Andes. Traveled southeast into the Maipo Valley to observe the transition from the sedimentary valley floor to the igneous Andean foothills.",
       "coordinates": "-33.6456, -70.3452",
-      "description": "Touching down in the fore-arc basin of the Central Andes. Happy to have arrived safely in South America before heading forth to our hotel. Looking forward to the tour of Santiago and seeing the sights. Travelled southeast into the Maipo Valley to observe the transition from the sedimentary valley floor to the igneous Andean foothills.
-      17.02.2026 (TUE)
-Half Day Puritama Hotsprings
-Private service with an English-speaking driver guide
-Supplier: Trekana Experience
-Today you will be picked up from your hotel to enjoy a relaxing time in the middle of the Atacama Desert. Located in a ravine and surrounded by vegetation, the Puritama River features 8 natural thermal pools ranging from 28° to 31°C. Its waters contain
-a high concentration of minerals known for being revitalising elements for the body and mind. It’s time to relish a long and relaxing bath in the tranquillity of the desert.
-Included: Entrance fee, water & towels.
-Recommendations: Sandals and sunglasses.
-Pick up: 09:00 hrs, Hotel Terrantai
-Drop off: Approximately 13:00 hrs, Hotel Terrantai
-
-17.02.2026 (TUE)
-Half-Day Astronomical Tour
-Shared service with bilingual Spanish/English speaking guide
-Supplier: Space Observatory
-You will be picked up from the meeting point and head into the darkness of the desert to admire and study the starry night of San Pedro de Atacama from a scientific perspective. To take full advantage of this, your guide will be a professional astronomer specialised in the search for comets and asteroids. With his guidance, you will start with a naked-eye observation of the sky and learn about the constellations around us, how to read a sky map, and how to recognise the main stars. You will also learn how to use the telescopes at hand to enjoy a much better view of the night sky. The tour will finish with a hot beverage and a nice conversation about the universe around us.
-Included: Hot beverage, access to 3 telescopes.
-Recommendation: Please remember to wear warm clothes, as this is an outdoor tour in the middle of the desert at night.
-Important information:
-- Since the tour is subject to weather conditions, it could be cancelled until the last minute.
-- With fewer than 6 passengers, the tour will be rescheduled if possible.
-Meeting point: At 20:45 hrs outside of “Escuela E-26” on Ignacio Carrera Pinto Street (not at Space Observatory’s Office). In case there is any delay, please wait at the meeting point. If the tour is cancelled for any reason, the supplier will contact you directly at your hotel.
-Drop off: 23:30 hrs, Hotel Terrantai parking lot area."
-      "image": "photo_old_format.jpg",
       "images": [
         {
           "url": "san_cristobal.jpg",
@@ -44,14 +20,17 @@ Drop off: 23:30 hrs, Hotel Terrantai parking lot area."
       ],
       "geoNote": {
         "title": "Andean Orogeny",
-        "text": "Plenty of great evidence of rapid tectonic uplift is visible in the deeply incised river valleys. The clasts in the conglomerate are predominantly volcanic, indicating high-energy transport from the volcanic arc."
+        "text": "Evidence of rapid tectonic uplift is visible in the deeply incised river valleys. The clasts in the conglomerate are predominantly volcanic, indicating high-energy transport from the volcanic arc."
       }
     },
     {
       "day": "Day 2",
       "title": "San Cristobal Igneous Complex",
-      "description": "Hiked up the hill to observe the intrusive igneous formations overlooking the basin.",
-      "activities": ["Summit hike", "Funicular"],
+      "description": "Hiked the hill to observe the intrusive igneous formations overlooking the basin.",
+      "activities": [
+        "Summit hike",
+        "Funicular"
+      ],
       "images": [
         {
           "url": "san_cristobal.jpg",
@@ -65,14 +44,17 @@ Drop off: 23:30 hrs, Hotel Terrantai parking lot area."
       "coordinates": "-33.4250, -70.6330",
       "geoNote": {
         "title": "Intrusive Rock",
-        "text": "The large hill is largely composed of quartz monzonite, an igneous rock that cooled slowly underground."
+        "text": "The hill is largely composed of quartz monzonite, an igneous rock that cooled slowly underground."
       }
     },
     {
       "day": "Day 3",
       "title": "Maipo Valley Strata",
       "description": "Witnessed intense folding in the sedimentary layers of the Caj�n del Maipo.",
-      "activities": ["Wine tasting", "Canyon drive"],
+      "activities": [
+        "Wine tasting",
+        "Canyon drive"
+      ],
       "images": [
         {
           "url": "san_cristobal.jpg",
@@ -93,7 +75,10 @@ Drop off: 23:30 hrs, Hotel Terrantai parking lot area."
       "day": "Day 4",
       "title": "Valparaiso Coastal Uplift",
       "description": "Explored the UNESCO hills. The steep cliffs show evidence of rapid tectonic coastal rise.",
-      "activities": ["Street Art Tour", "Ascensor Artilleria"],
+      "activities": [
+        "Street Art Tour",
+        "Ascensor Artilleria"
+      ],
       "images": [
         {
           "url": "san_cristobal.jpg",
@@ -103,8 +88,8 @@ Drop off: 23:30 hrs, Hotel Terrantai parking lot area."
           "url": "maipo_strata.jpg",
           "caption": "Figure 1.2: Close-up of fluvial conglomerate deposits along the Maipo River banks."
         }
-      ], 
-     "coordinates": "-33.0472, -71.6127",
+      ],
+      "coordinates": "-33.0472, -71.6127",
       "geoNote": {
         "title": "Tectonic Uplift",
         "text": "Major seismic events in this region can uplift the shoreline by over a meter in minutes."
@@ -114,7 +99,10 @@ Drop off: 23:30 hrs, Hotel Terrantai parking lot area."
       "day": "Day 5",
       "title": "El Yeso Reservoir",
       "description": "High altitude reservoir surrounded by turquoise water and gypsum-rich soil.",
-      "activities": ["Hiking", "Photography"],
+      "activities": [
+        "Hiking",
+        "Photography"
+      ],
       "images": [
         {
           "url": "san_cristobal.jpg",
@@ -135,7 +123,10 @@ Drop off: 23:30 hrs, Hotel Terrantai parking lot area."
       "day": "Day 6",
       "title": "Transit to Rapa Nui",
       "description": "Flight across the Pacific to the most isolated volcanic island in the world.",
-      "activities": ["Flight", "Tahai Sunset"],
+      "activities": [
+        "Flight",
+        "Tahai Sunset"
+      ],
       "image": "rapa_nui_arrival.jpg",
       "coordinates": "-27.1127, -109.3497",
       "geoNote": {
@@ -147,7 +138,10 @@ Drop off: 23:30 hrs, Hotel Terrantai parking lot area."
       "day": "Day 7",
       "title": "Rano Raraku Quarry",
       "description": "The birthplace of the Moai. Carved directly into the volcanic crater walls.",
-      "activities": ["Quarry walk", "Moai counting"],
+      "activities": [
+        "Quarry walk",
+        "Moai counting"
+      ],
       "image": "rano_raraku.jpg",
       "coordinates": "-27.1244, -109.2886",
       "geoNote": {
@@ -159,8 +153,11 @@ Drop off: 23:30 hrs, Hotel Terrantai parking lot area."
       "day": "Day 8",
       "title": "Orongo & Rano Kau",
       "description": "The dramatic caldera of Rano Kau shows beautiful freshwater lake stratigraphy.",
-      "activities": ["Birdman Village", "Caldera Rim walk"],
-      "images": [
+      "activities": [
+        "Birdman Village",
+        "Caldera Rim walk"
+      ],
+      "image": [
         "TectonicPlates.jpg",
         "TectonicPlates.jpg"
       ],
@@ -174,8 +171,11 @@ Drop off: 23:30 hrs, Hotel Terrantai parking lot area."
       "day": "Day 9",
       "title": "Ahu Akivi Caves",
       "description": "Explored subterranean lava tubes created by ancient flowing magma.",
-      "activities": ["Cave exploration", "Inland Moai"],
-      "images": [
+      "activities": [
+        "Cave exploration",
+        "Inland Moai"
+      ],
+      "image": [
         "VolcanoXsection.jpg",
         "VolcanicEruption.jpg",
         "TectonicPlates.jpg",
@@ -191,7 +191,10 @@ Drop off: 23:30 hrs, Hotel Terrantai parking lot area."
       "day": "Day 10",
       "title": "Anakena Beach",
       "description": "White coral sand contrasting with dark basaltic rocks.",
-      "activities": ["Swimming", "Ahu Nau Nau"],
+      "activities": [
+        "Swimming",
+        "Ahu Nau Nau"
+      ],
       "image": "TectonicPlates.jpg",
       "coordinates": "-27.0733, -109.3236",
       "geoNote": {
@@ -203,7 +206,10 @@ Drop off: 23:30 hrs, Hotel Terrantai parking lot area."
       "day": "Day 11",
       "title": "Mainland Return",
       "description": "Return to Santiago. Evening reflection on the island's volcanic cycle.",
-      "activities": ["Flight back", "Lastarria Dinner"],
+      "activities": [
+        "Flight back",
+        "Lastarria Dinner"
+      ],
       "images": [
         {
           "url": "rapa_nui_arrival.jpg",
@@ -219,8 +225,11 @@ Drop off: 23:30 hrs, Hotel Terrantai parking lot area."
     {
       "day": "Day 12",
       "title": "Patagonia: Punta Arenas",
-      "description": "Flying south to the edge of the continent. Entering the realm of the icy glaciers. Are they retreating?",
-      "activities": ["Museum visit", "Coastal walk"],
+      "description": "Flying south to the edge of the continent. Entering the realm of glaciers.",
+      "activities": [
+        "Museum visit",
+        "Coastal walk"
+      ],
       "images": [
         "VolcanoXsection.jpg",
         "VolcanicEruption.jpg",
@@ -236,7 +245,10 @@ Drop off: 23:30 hrs, Hotel Terrantai parking lot area."
       "day": "Day 13",
       "title": "Torres del Paine",
       "description": "First view of the granite massifs. A masterpiece of intrusive geology.",
-      "activities": ["Park entry", "Lake Nordenskj�ld"],
+      "activities": [
+        "Park entry",
+        "Lake Nordenskj�ld"
+      ],
       "image": "VolcanoXsection.jpg",
       "coordinates": "-51.0000, -73.0000",
       "geoNote": {
@@ -248,7 +260,10 @@ Drop off: 23:30 hrs, Hotel Terrantai parking lot area."
       "day": "Day 14",
       "title": "Grey Glacier Hike",
       "description": "Walking beside the massive Southern Patagonian Ice Field.",
-      "activities": ["Trekking", "Boat tour"],
+      "activities": [
+        "Trekking",
+        "Boat tour"
+      ],
       "image": "VolcanicEruption.jpg",
       "coordinates": "-51.0450, -73.1550",
       "geoNote": {
@@ -260,7 +275,9 @@ Drop off: 23:30 hrs, Hotel Terrantai parking lot area."
       "day": "Day 15",
       "title": "The French Valley",
       "description": "Deep in the heart of the granite horns. Witnessed small snow avalanches.",
-      "activities": ["High-altitude trek"],
+      "activities": [
+        "High-altitude trek"
+      ],
       "image": "GeologicalTimeline.jpg",
       "coordinates": "-51.0150, -73.0550",
       "geoNote": {
@@ -272,7 +289,10 @@ Drop off: 23:30 hrs, Hotel Terrantai parking lot area."
       "day": "Day 16",
       "title": "Departure Preparations",
       "description": "Final morning in the park before the journey back to Punta Arenas.",
-      "activities": ["Packing", "Wildlife spotting"],
+      "activities": [
+        "Packing",
+        "Wildlife spotting"
+      ],
       "image": "TectonicPlates.jpg",
       "coordinates": "-51.1500, -72.8500"
     },
@@ -280,7 +300,10 @@ Drop off: 23:30 hrs, Hotel Terrantai parking lot area."
       "day": "Day 17",
       "title": "Atacama Extension: Moon Valley",
       "description": "Transition to the high desert. Salt crusts crunching underfoot.",
-      "activities": ["Sunset dune walk", "Salt cave exploration"],
+      "activities": [
+        "Sunset dune walk",
+        "Salt cave exploration"
+      ],
       "image": "cover.jpg",
       "coordinates": "-22.9110, -68.3180",
       "geoNote": {

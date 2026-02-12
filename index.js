@@ -233,7 +233,15 @@ const doc = new Document({
                             });
                         } else if (day.image) {
                             // Fallback for Old Single Image Format
-                            dayElements.push(...insertImageWithCaption(day.image));
+                            if (Array.isArray(day.image)) {
+                                // Handle array of image filenames
+                                day.image.forEach(img => {
+                                    dayElements.push(...insertImageWithCaption(img));
+                                });
+                            } else {
+                                // Handle single image
+                                dayElements.push(...insertImageWithCaption(day.image));
+                            }
                         }
                     
                         dayElements.push(new Paragraph({ children: [new PageBreak()] }));
