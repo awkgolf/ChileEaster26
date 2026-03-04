@@ -7,12 +7,16 @@
       "day": "Day 1",
       "title": "Arrival in Santiago & Maipo Valley Reconnaissance",
       "coordinates": "-33.6456, -70.3452",
+<<<<<<< Updated upstream
       "description": "Touching down in the fore-arc basin of the Central Andes. Happy to have arrived safely in South America before heading forth to our hotel. Looking forward to the tour of Santiago and seeing the sights. Travelled southeast into the Maipo Valley to observe the transition from the sedimentary valley floor to the igneous Andean foothills."
+=======
+      "description": "Touching down in the forearc basin of the Central Andes. Happy to have arrived safely in South America before heading forth, checked in and ready to explore. Great tour of the town of Santiago.Traveled southeast into the Maipo Valley to observe the transition from the sedimentary valley floor to the igneous Andean foothills.",
+>>>>>>> Stashed changes
       "image": "photo_old_format.jpg",
       "images": [
         {
           "url": "san_cristobal.jpg",
-          "caption": "Figure 1.1: The Santiago basin skyline with the snow-capped Andes rising in the background."
+          "caption": "Figure 1.1: The Santiago basin skyline with the snow-capped Andes rising in the background. A striking picture of earth processes."
         },
         {
           "url": "maipo_strata.jpg",
@@ -21,7 +25,7 @@
       ],
       "geoNote": {
         "title": "Andean Orogeny",
-        "text": "Plenty of great evidence of rapid tectonic uplift is visible in the deeply incised river valleys. The clasts in the conglomerate are predominantly volcanic, indicating high-energy transport from the volcanic arc."
+        "text": "Plenty of great evidence of rapid tectonic uplift is visible in the deeply incised river valleys. The clasts in the conglomerate are predominantly volcanic, indicating high-energy transport from the volcanic arc. Reminded me of the power of earth processes first learnt at university in Aberystwyth."
       }
     },
     {
@@ -187,7 +191,7 @@
           "caption": "Figure 12.1: Overview of the Tatio basin showing steam discharge at 06:00."
         },
         {
-          "url": "TectonicPlates.jpg",
+          "url": "Volcanoes.jpg",
           "caption": "Figure 12.2: Close-up of siliceous sinter terraces showing active precipitation."
         }
       ],
@@ -250,7 +254,7 @@
       "title": "Departure Preparations",
       "description": "Final morning in the park before the journey back to Punta Arenas.",
       "activities": ["Packing", "Wildlife spotting"],
-      "image": "TectonicPlates.jpg",
+      "image": "vulcancity.jpg",
       "coordinates": "-51.1500, -72.8500"
     },
     {

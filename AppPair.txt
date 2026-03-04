@@ -1,0 +1,40 @@
+Setting up an App Pair on your Samsung tablet is a game-changer for field work. It allows you to launch Spck and Termux simultaneously with one swipe, making your data entry and document building feel like a single, seamless application.
+
+🛠️ How to Create the App Pair
+Open both apps: Open Spck Editor first, then open Termux.
+
+Enter Split Screen: * Tap the Recents button (the three vertical lines in your nav bar).
+
+Tap the icon at the top of the Spck window and select "Open in split screen view."
+
+Select Termux as the second app.
+
+Save the Pair:
+
+In the center divider between the two apps, tap the three dots (or the star icon if visible).
+
+Tap the Add to Edge Panel icon (it looks like a plus sign inside a side panel).
+
+Now, whenever you pull out your Edge Panel (the transparent handle on the side of your screen), you’ll see an icon for Spck/Termux together. One tap, and your field lab is open.
+
+📂 Accessing Files in Termux (The "Sync" Bridge)
+There is one technical hurdle: Spck stores files in its own "sandbox" which Termux can't see by default. To bridge this:
+
+In Termux: Run termux-setup-storage.
+
+In Spck: When you clone your repo, choose a location inside your internal storage (like a folder named Documents/Geology) rather than the default internal Spck folder.
+
+The Result: Now, when you edit the JSON in Spck and save, Termux is looking at the exact same file. You won't have to copy or move anything.
+
+🧗 The Final "Summit" View
+You are now equipped with:
+
+The Brain: index.js (The logic).
+
+The Body: travelData.json (The data).
+
+The Tools: Spck (The UI/Git) and Termux (The Engine).
+
+The Workflow: App Pairs for speed.
+
+You’ve officially optimized your workflow to the "peak." Unless you have a specific question about a geological term or a last-minute code tweak, you are 100% ready to head to Chile.

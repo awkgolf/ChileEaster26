@@ -1,0 +1,13 @@
+💡 Pro-Tip: The "Up-Arrow" Shortcut
+In Termux, you don't need to type node index.js every time. Just tap the Up Arrow on your keyboard (or use the shortcut Ctrl + P) to cycle through your previous commands.
+
+📂 How to Open the Output
+Once the terminal says 🚀 BUILD SUCCESS, you can't open the Word file inside Termux. Instead:
+
+Open your tablet's "My Files" or "Files" app.
+
+Go to the project folder.
+
+Tap Geological_Field_Journal_2026.docx.
+
+It will open in Microsoft Word or Google Docs for a final review.
