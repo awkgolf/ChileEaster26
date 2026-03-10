@@ -231,9 +231,18 @@
         "Coastal walk"
       ],
       "images": [
-        "VolcanoXsection.jpg",
-        "VolcanicEruption.jpg",
-        "TectonicPlates.jpg"
+        {
+          "url": "VolcanoXsection.jpg",
+          "caption": ""
+        },
+        {
+          "url": "VolcanicEruption.jpg",
+          "caption": ""
+        },
+        {
+          "url": "TectonicPlates.jpg",
+          "caption": ""
+        }
       ],
       "coordinates": "-53.1638, -70.9171",
       "geoNote": {
