@@ -1,17 +1,14 @@
 {
   "tripTitle": "FIELD JOURNAL: CHILE & RAPA NUI",
   "author": "Amateur Geologist",
-  "coverImage": "Cover.jpg",
+  "coverImage": "cover.jpg",
+  "regionalMap": "TectonicPlates.jpg",
   "days": [
     {
       "day": "Day 1",
       "title": "Arrival in Santiago & Maipo Valley Reconnaissance",
       "coordinates": "-33.6456, -70.3452",
-<<<<<<< Updated upstream
-      "description": "Touching down in the fore-arc basin of the Central Andes. Happy to have arrived safely in South America before heading forth to our hotel. Looking forward to the tour of Santiago and seeing the sights. Travelled southeast into the Maipo Valley to observe the transition from the sedimentary valley floor to the igneous Andean foothills."
-=======
-      "description": "Touching down in the forearc basin of the Central Andes. Happy to have arrived safely in South America before heading forth, checked in and ready to explore. Great tour of the town of Santiago.Traveled southeast into the Maipo Valley to observe the transition from the sedimentary valley floor to the igneous Andean foothills.",
->>>>>>> Stashed changes
+      "description": "Touching down in the forearc basin of the Central Andes. Happy to have arrived safely in South America before heading forth, checked in and ready to explore. Great tour of the town of Santiago. Travelled southeast into the Maipo Valley to observe the transition from the sedimentary valley floor to the igneous Andean foothills.",
       "image": "photo_old_format.jpg",
       "images": [
         {
@@ -52,7 +49,7 @@
     {
       "day": "Day 3",
       "title": "Maipo Valley Strata",
-      "description": "Witnessed intense folding in the sedimentary layers of the Caj�n del Maipo.",
+      "description": "Witnessed intense folding in the sedimentary layers of the Cajón del Maipo.",
       "activities": ["Wine tasting", "Canyon drive"],
       "images": [
         {
@@ -210,14 +207,14 @@
       "coordinates": "-53.1638, -70.9171",
       "geoNote": {
         "title": "Glacial Moraines",
-        "text": "The landscape here is shaped by glacial till�unsorted sediment dropped by retreating ice sheets."
+        "text": "The landscape here is shaped by glacial till—unsorted sediment dropped by retreating ice sheets."
       }
     },
     {
       "day": "Day 13",
       "title": "Torres del Paine",
       "description": "First view of the granite massifs. A masterpiece of intrusive geology.",
-      "activities": ["Park entry", "Lake Nordenskj�ld"],
+      "activities": ["Park entry", "Lake Nordenskjöld"],
       "image": "VolcanoXsection.jpg",
       "coordinates": "-51.0000, -73.0000",
       "geoNote": {
