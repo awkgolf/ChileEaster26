@@ -8,8 +8,8 @@
       "day": "Day 1",
       "title": "Arrival in Santiago & Maipo Valley Reconnaissance",
       "coordinates": "-33.6456, -70.3452",
-      "description": "Touching down in the forearc basin of the Central Andes. Happy to have arrived safely in South America before heading forth, checked in and ready to explore. Great tour of the town of Santiago. Travelled southeast into the Maipo Valley to observe the transition from the sedimentary valley floor to the igneous Andean foothills.",
-      "image": "photo_old_format.jpg",
+      "description": "Touching down in the forearc basin of the Central Andes. Happy to have arrived safely in South America before heading forth, checked in and ready to explore. Great tour of the town of Santiago. Travelled southeast into the Maipo Valley to observe the transition from the sedimentary valley floor to the igneous Andean foothills. You will be picked up from your hotel to get to know some of the historic sights of Santiago de Chile, such as La Moneda (Presidential Palace) and other places of interest. You will also have time to explore some of the less-known areas of Santiago but equally fascinating and full of history such as the cobblestoned Lastarria Neighbourhood.",
+            "image": "photo_old_format.jpg",
       "images": [
         {
           "url": "san_cristobal.jpg",
@@ -28,7 +28,7 @@
     {
       "day": "Day 2",
       "title": "San Cristobal Igneous Complex",
-      "description": "Hiked up the hill to observe the intrusive igneous formations overlooking the basin.",
+      "description": "Today you will visit two highlights of central Chile: Villard Winery in the Casablanca Valley and the port city of Valparaíso. Hiked up the hill to observe the intrusive igneous formations overlooking the basin. Casas del Bosque Winery - This vineyard was conceived in 1993 to be a family boutique winery exclusively oriented to the production of high quality wines. It is recognized as one of the most prestigious vineyards within the valley due to the excellence and quality of its wines elaborated following a sustainable philosophy respecting the environment and the local community. Valparaíso - Valparaíso’s picturesque layout, enhanced by the surrounding hills that seem to dive into the ocean, reminds us that this was once the most important maritime destination of the Pacific coast before the Strait of Panama was opened to navigation in 1914. You will visit the downtown area, then discover the colourful hill neighbourhoods. Here, high above the city, you will have fantastic views of the surrounding area. The upper and lower parts of the city are connected with 16 funicular railways built around the turn of the century, when the city experienced tremendous growth. After an amazing experience, you will return to your hotel.",
       "activities": ["Summit hike", "Funicular"],
       "images": [
         {
@@ -49,7 +49,7 @@
     {
       "day": "Day 3",
       "title": "Maipo Valley Strata",
-      "description": "Witnessed intense folding in the sedimentary layers of the Cajón del Maipo.",
+      "description": "Witnessed intense folding in the sedimentary layers of the Cajón del Maipo. Today you will be picked up early in the morning for a one-of-a-kind tasting in the middle of the desert, with an outstanding view of the Salt Mountain Range. You will then go for a walk to admire the impressive landscapes of the Moon Valley firsthand before continuing to an ayllu, a traditional community. Once there, you will roam its narrow trails surrounded by vegetable gardens and adobe houses. Here you will take a minute to rest and taste typical Atacameñan food. After this wonderful experience learning about the history, culture, and challenges of San Pedro de Atacama, we will call it a day and return to your hotel. You will begin by getting to know two culturally and geologically important sites northwest of San Pedro de Atacama. First, you will visit Yerbas Buenas, an area boasting impressive artistic manifestations including petroglyphs, engravings and paintings. This is the most important display of cave art in the area. Afterwards, you will continue to the Rainbow Valley, where you will learn in plain sight the reason behind its name: thanks to its colourful, million-year-old rocks. At the end of the day, you will gather on the rim of the Salt Mountain Range, above the Mars Valley (also known as Death Valley), where you can contemplate its capricious morphology as well as the beauty of the Andes in the distance.",
       "activities": ["Wine tasting", "Canyon drive"],
       "images": [
         {
@@ -200,9 +200,26 @@
       "description": "Flying south to the edge of the continent. Entering the realm of the icy glaciers. Are they retreating?",
       "activities": ["Museum visit", "Coastal walk"],
       "images": [
-        "VolcanoXsection.jpg",
-        "VolcanicEruption.jpg",
-        "TectonicPlates.jpg"
+        {
+          "url": "rapa_nui_arrival.jpg",
+          "caption": "Figure 12.1: Overview of the Tatio basin showing steam discharge at 06:00."
+        },
+        {
+          "url": "Volcanoes.jpg",
+          "caption": "Figure 12.2: Close-up of siliceous sinter terraces showing active precipitation."         
+        },
+        {
+          "url": "TectonicPlates.jpg",
+          "caption": "Figure 12.3: Map of the South American plate showing the subduction zone and volcanic arc."
+        },
+        {
+          "url": "GeologicalTimeline.jpg",
+          "caption": "Figure 12.4: Geological timeline of the Andean orogeny and volcanic activity."
+        },
+        {
+          "url": "vulcancity.jpg",
+          "caption": "Figure 12.5: Photo of the volcanic landscape near Punta Arenas with the Strait of Magellan in the background."
+        }
       ],
       "coordinates": "-53.1638, -70.9171",
       "geoNote": {
