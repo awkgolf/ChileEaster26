@@ -5,6 +5,9 @@ on:
     branches: ['**']
   pull_request:
 
+permissions:
+  contents: read
+
 jobs:
   validate-and-smoke-build:
     runs-on: ubuntu-latest
