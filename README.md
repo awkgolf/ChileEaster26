@@ -1,73 +1,64 @@
-⛏️ Geological Field Journal Automation (Chile 2026)
-This project is a specialized Node.js pipeline designed to transform structured geological field observations into a professionally formatted, academic-style Word document.
+# ChileEaster26 Geological Field Journal Generator
 
-📋 Table of Contents
-Overview
+This project builds a formatted `.docx` geological field journal from structured JSON data and local photo assets.
 
-System Architecture
+## Canonical project files
 
-Setup & Installation
+- `/home/runner/work/ChileEaster26/ChileEaster26/index.js` — build entrypoint
+- `/home/runner/work/ChileEaster26/ChileEaster26/travelData.json` — canonical trip data source
+- `/home/runner/work/ChileEaster26/ChileEaster26/photos/` — photo assets referenced by `travelData.json`
+- `/home/runner/work/ChileEaster26/ChileEaster26/src/` — modular generator and data pipeline code
+- `/home/runner/work/ChileEaster26/ChileEaster26/scripts/` — validation and smoke-test scripts
 
-Data Entry Guide
+Legacy variants and historical snapshots are archived under `/home/runner/work/ChileEaster26/ChileEaster26/misc/archive/`.
 
-Field Troubleshooting
+## Setup
 
-🔍 Overview
-The system automates the tedious parts of field reporting—formatting, image placement, and indexing—so you can focus on the geology. It features a Photo Audit system that verifies your stratigraphic evidence is present before building the final report.
+```bash
+npm install
+```
 
-🏗 System Architecture
-The project is built to be lightweight and portable:
+## Canonical workflow
 
-Logic: Node.js using the docx library.
+1. Edit `/home/runner/work/ChileEaster26/ChileEaster26/travelData.json`
+2. Validate the data model:
+   ```bash
+   npm run validate
+   ```
+3. Build the journal:
+   ```bash
+   npm run build
+   ```
 
-Data Strata: travelData.json (The single source of truth).
+## Commands
 
-Assets: Organized /photos directory with support for multiple images per day.
+- `npm run validate` — strict schema validation for `travelData.json`
+- `npm run build` — generate `Geological_Field_Journal_2026.docx`
+- `npm run smoke-test` — run a build to a temp file and assert output exists
+- `npm test` — run validation + smoke test
 
-Outputs: Professional .docx with automated Table of Contents and a Stratigraphic Index.
+## Data model requirements
 
-🚀 Setup & Installation
-Windows Environment
-Install Node.js.
+Each `days[]` item must contain:
 
-Clone this repository.
+- `day` (string)
+- `title` (string)
+- `description` (string)
+- `images` (array of objects)
 
-Run npm install to build your local node_modules.
+Each image object supports:
 
-Run build_journal.bat or press F5 in VS Code to generate your journal.
+- `url` (required string)
+- `caption` (optional string)
 
-Android / Samsung Tablet (Termux)
-Install Termux and the Acode editor.
+Legacy `image` fields are not supported.
 
-Navigate to the project folder.
+## Optional output auto-open
 
-Run termux-setup-storage.
+By default, the build does not auto-open the generated document.
 
-Execute ./setup-tablet.sh to install the environment.
+To auto-open on local desktop environments:
 
-Build using node index.js.
-
-📝 Data Entry Guide
-Update your observations in travelData.json. The schema supports technical field notes and multiple annotated images:
-
-JSON
-{
-  "day": "Day 12",
-  "title": "El Tatio Geyser Field",
-  "images": [
-    { "url": "tatio_1.jpg", "caption": "Fig 12.1: Sinter terraces." }
-  ],
-  "geoNote": {
-    "title": "Geothermal Precipitation",
-    "text": "High silica content noted in active discharge zones."
-  }
-}
-⚠️ Field Troubleshooting
-JSON Syntax: Use the "Cheat Sheet" in the project folder if the script crashes due to a missing comma.
-
-Photo Audit: If the terminal warns of a missing image, check that the filename in the JSON matches the file in /photos exactly (including case).
-
-File Locks: Ensure the generated Word document is closed before running a new build.
-
-📚 Technical Context
-This project documents the tectonic and volcanic evolution of the South American Plate, focusing on the Andean orogeny and the unique volcanic history of Rapa Nui.# legendary-chile-memory
+```bash
+AUTO_OPEN=true npm run build
+```

@@ -4,8 +4,10 @@
   "description": "Automated field journal for geological observations in Chile and Rapa Nui",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "node index.js"
+    "validate": "node scripts/validate-data.js",
+    "build": "node index.js",
+    "smoke-test": "node scripts/smoke-test.js",
+    "test": "npm run validate && npm run smoke-test"
   },
   "keywords": [
     "geology",
