@@ -1,4 +1,6 @@
 #!/bin/bash
+set -euo pipefail
+
 echo "⛏ Starting Geological Journal Build..."
-node index.js
+npm run build
 echo "✅ Build Complete!"
